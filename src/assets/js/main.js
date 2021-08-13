@@ -1,4 +1,4 @@
-let backendHost = 'http://localhost:4500'
+let backendHost = 'https://super-muper-back-app.herokuapp.com'
 
 ;( async  () => {
 	let response = await fetch(backendHost + '/api/data')
